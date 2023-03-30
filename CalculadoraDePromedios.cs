@@ -2,7 +2,7 @@
 current grade in the class. To perform this calculation, you'll first sum the values of 
 their assignment scores, and then calculate their average score (their current grade). */
 
-//Declaración de variables
+//Declarations of variables
 
 int currentAsigments = 5;
 
@@ -40,7 +40,7 @@ decimal nicolasScore = (decimal) nicolasSum / currentAsigments;
 decimal zahirahScore = (decimal) zahirahSum / currentAsigments;
 decimal jeongScore = (decimal) jeongSum / currentAsigments;
 
-//Impresión en pantalla
+//Print in screen
 
 Console.WriteLine("Student \tGrade\n");
 Console.WriteLine("Sophia: \t" + sophiaScore + "\tA");
